@@ -8,5 +8,13 @@ namespace Factorial_Function
         {
             Console.WriteLine("Hello World!");
         }
+
+        static int factorial(int n)
+        {
+            for(int i = 0; i < n; i++)
+            {
+
+            }
+        }
     }
 }
