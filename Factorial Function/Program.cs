@@ -6,15 +6,18 @@ namespace Factorial_Function
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(factorial(9));
         }
 
         static int factorial(int n)
         {
-            for(int i = 0; i < n; i++)
+            int result = n;
+            for(int i = 1; i < n; i++)
             {
-
+                result = i * result;
+                
             }
+            return result;
         }
     }
 }
